@@ -22,7 +22,7 @@ public class Main_Activity extends AppCompatActivity {
 
     }
     public void Start(View view){
-     // Intent intent=(Main_Activity.this)
+
     }
 
 }

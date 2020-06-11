@@ -13,6 +13,16 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="playtext" />
+    <string name="Log">Log</string>
+    <string name="Dice">DiceView</string>
+    <string name="stadistics">Stadistics</string>
+    <string name="Label_Name">Name :</string>
+    <string name="PlayerName">Name :</string>
+    <string name="Stars_Label">Stars :</string>
+    <string name="PlayerStars">Stars :</string>
+    <string name="CoinsLabel">Coins :</string>
+    <string name="PlayerCoins">Coins :</string>
+    <string name="PP">TODO</string>
 
 
 </resources>

@@ -36,6 +36,7 @@
         android:layout_width="163dp"
         android:layout_height="163dp"
         android:backgroundTint="?android:attr/panelBackground"
+        android:onClick="Start"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/BackGround"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +44,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Title"
         app:srcCompat="@drawable/playbutton"
-        tools:ignore="ContentDescription"
-        />
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

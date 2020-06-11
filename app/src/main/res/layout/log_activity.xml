@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/BackGround"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="231dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title2"
+        app:layout_constraintVertical_bias="0.112"
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/Title1"
+        android:layout_width="234dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/room"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/roomN"
+        android:layout_width="231dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title1"
+        app:layout_constraintVertical_bias="0.357"
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/Title2"
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title1"
+        app:srcCompat="@drawable/code"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/Log_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="log"
+        android:text="@string/Log"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="109dp"
+        android:layout_height="107dp"
+        android:indeterminate="false"
+        android:saveEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Log_Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

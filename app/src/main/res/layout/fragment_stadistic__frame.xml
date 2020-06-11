@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Fragments.Stadistic_Frame">
+
+
+    <ImageView
+        android:id="@+id/Avatar"
+        android:layout_width="184dp"
+        android:layout_height="204dp"
+        android:contentDescription="@string/PP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:srcCompat="@drawable/avatar1" />
+
+    <TextView
+        android:id="@+id/Label_Name"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/Label_Name"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/Player_Name"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/PlayerName"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/Stars_Label"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/Stars_Label"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <TextView
+        android:id="@+id/Player_Stars"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/PlayerStars"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <TextView
+        android:id="@+id/Coins_Label"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/CoinsLabel"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <TextView
+        android:id="@+id/Player_Coin"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/wendy_one"
+        android:text="@string/PlayerCoins"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avatar"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <Button
+        android:id="@+id/Left_Arrow"
+        android:layout_width="80dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/leftarrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/Right_Arrow"
+        android:layout_width="80dp"
+        android:layout_height="200dp"
+        android:background="@drawable/rightarrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+</androidx.constraintlayout.widget.ConstraintLayout>
